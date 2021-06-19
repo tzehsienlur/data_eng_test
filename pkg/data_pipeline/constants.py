@@ -1,0 +1,1 @@
+TITLE_HASHMAP = {'Sir.': 0, 'Mdm.': 0, 'Ms.': 0, 'Mr.': 0, 'Dr.': 0, 'Mrs.': 0}
