@@ -42,6 +42,24 @@
 
 ## Section 2: Databases
 
+### Overview of folder architecture
+
+    ├───database
+        ├───db
+        │   ├───Dockerfile
+        └───sql_scripts
+        │   └───ddl_create_tables.sql
+        │   └───dql_select.sql
+        └───docker-compose.yml
+        └───entity_relationship_diagram.png
+
+
+### Information
+![Entity Relationship Diagram](./database/entity_relationship_diagram.png)
+- Created 4 tables (CAR, SALES_TRANSACTION, SALES_PERSON, CUSTOMER)
+- Created a relation between car, sales_person and customer tables through SALES_TRANSACTION
+- With this relation, we can easily access different tables to retrieve information according to the sales_transaction information.
+
 ## Section 3: System Design
 ![System Design](./system_design/system_design.png)
 
