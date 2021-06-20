@@ -55,13 +55,13 @@
 
 
 ### Information
-![Entity Relationship Diagram](database/entity_relationship_diagram.png?raw=true)
+![Entity Relationship Diagram](database/entity_relationship_diagram.PNG?raw=true)
 - Created 4 tables (CAR, SALES_TRANSACTION, SALES_PERSON, CUSTOMER)
 - Created a relation between car, sales_person and customer tables through SALES_TRANSACTION
 - With this relation, we can easily access different tables to retrieve information according to the sales_transaction information.
 
 ## Section 3: System Design
-![System Design](system_design/system_design.png?raw=true)
+![System Design](system_design/system_design.PNG?raw=true)
 
 ### Information
 - The company also has a separate web application which provides a stream of images using a Kafka stream.
