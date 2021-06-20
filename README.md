@@ -41,3 +41,27 @@
 
 
 ## Section 2: Databases
+
+## Section 3: System Design
+
+## Section 4: Charts and APIs
+
+### Overview of folder architecture
+    ├───data_visualisation
+        └───app.py
+        └───data_visualisation.py
+        └───preprocess_json.py
+        └───requirements.txt
+        └───installation.sh
+
+### Getting Started
+- Clone the repo and save it into to any location you prefer
+- Assuming you store your repo right beneath D: drive
+- Using gitbash or ubuntu terminal run the shellscript "installation.sh" to install the python libraries
+- Run the entire python program using "python app.py"
+### Notes
+- "preprocess_json.py" is meant to clean the json data and produce it in a format that can be used for plotting graph
+- "data_visualisation.py" is meant to plot the graphs and can be used as a package that showcase various types of graph
+- "app.py" is the main file that combines "preprocess_json.py" and "data_visualisation.py" methods
+
+## Section 5: Machine Learning
